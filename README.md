@@ -53,9 +53,9 @@ Important features include:
 
 The target variable is `satisfaction`.
 
-> **Note:** The dataset is not included in this repository. Place
-> `Airline Passenger Satisfaction.csv` in the project directory before running
-> the script. It loads the CSV from the same directory as the Python file.
+The dataset is included in this repository. The script loads
+`Airline Passenger Satisfaction.csv` from the same directory as the Python
+file.
 
 ## Project Workflow
 
@@ -138,10 +138,8 @@ python -m pip install -r requirements.txt
 ### Run the Project
 
 1. Clone or download this repository.
-2. Place `Airline Passenger Satisfaction.csv` in the project folder beside the
-   Python script.
-3. Open the project folder in VS Code, Spyder, or a terminal.
-4. Run the Python file:
+2. Open the project folder in VS Code, Spyder, or a terminal.
+3. Run the Python file:
 
 ```powershell
 python "Predictive Project.py"
