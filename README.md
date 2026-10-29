@@ -88,6 +88,60 @@ satisfaction. The analysis includes:
 - A correlation heatmap of selected service ratings and flight delays.
 - Arrival delay distribution by satisfaction.
 
+### Visualization Outputs
+
+The following charts show example outputs from the project. The box plot
+compares the categorical `satisfaction` column with the numeric
+`Arrival Delay in Minutes` column.
+
+#### Exploratory Data Analysis
+
+**Passenger satisfaction distribution**
+
+![Distribution of passenger satisfaction](visualizations/satisfaction-distribution.png)
+
+**Passenger age distribution**
+
+![Age distribution of passengers](visualizations/age-distribution.png)
+
+**Satisfaction by travel class**
+
+![Satisfaction by travel class](visualizations/satisfaction-by-travel-class.png)
+
+**Satisfaction by type of travel**
+
+![Satisfaction by type of travel](visualizations/satisfaction-by-travel-type.png)
+
+**Satisfaction by customer type**
+
+![Satisfaction by customer type](visualizations/satisfaction-by-customer-type.png)
+
+**Average service ratings by satisfaction**
+
+![Average service ratings by satisfaction](visualizations/service-ratings-by-satisfaction.png)
+
+**Correlation between service ratings and flight delays**
+
+![Correlation heatmap for service ratings and flight delays](visualizations/service-ratings-and-delays-correlation.png)
+
+**Arrival delay by satisfaction (box plot)**
+
+![Arrival delay in minutes by passenger satisfaction](visualizations/arrival-delay-by-satisfaction-boxplot.png)
+
+#### Model Results
+
+**Logistic regression confusion matrix**
+
+![Logistic regression confusion matrix](visualizations/logistic-regression-confusion-matrix.png)
+
+**Decision tree classifier**
+
+![Decision tree classifier visualization](visualizations/decision-tree-classifier.png)
+
+**Classification model accuracy comparison**
+
+![Accuracy comparison of classification models](visualizations/model-accuracy-comparison.png)
+
 The script also prints correlation, covariance, skewness, kurtosis, and
 outlier summaries for numerical data.
 
